@@ -1,15 +1,15 @@
-# 🛠️ APIREST - Simple CRUD with Spring Boot, Hibernate & PostgreSQL
+# APIREST - Simple CRUD with Spring Boot, Hibernate & PostgreSQL
 
 This project is a basic RESTful API that demonstrates a **CRUD (Create, Read, Update, Delete)** functionality for a `Producto` entity using:
 
-- Java 17+
+- Java 21+
 - Spring Boot
 - Hibernate (JPA)
 - PostgreSQL
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 APIREST/
@@ -32,7 +32,7 @@ APIREST/
 
 ---
 
-## 🔧 Setup Instructions
+## Setup Instructions
 
 ### 1. Prerequisites
 
@@ -56,7 +56,7 @@ Or use the `.env` file if running with Docker.
 
 ---
 
-## 🚀 Run the Application
+## Run the Application
 
 ```bash
 # Option 1: Local run
@@ -68,7 +68,7 @@ docker-compose up -d
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 All endpoints are available under:  
 `http://localhost:8080/api/productos`
@@ -83,7 +83,7 @@ All endpoints are available under:
 
 ---
 
-## 📦 Technologies Used
+## Technologies Used
 
 - Spring Boot (Web, JPA)
 - Hibernate
@@ -93,7 +93,7 @@ All endpoints are available under:
 
 ---
 
-## 🧪 Testing the API
+## Testing the API
 
 You can use tools like:
 
@@ -111,6 +111,6 @@ curl -X POST http://localhost:8080/api/productos \
 
 ---
 
-## 📄 License
+## License
 
 This project is open-source and free to use under the MIT License.
